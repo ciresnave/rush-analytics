@@ -1,0 +1,30 @@
+[project]
+name = "rush-analytics"
+authors = [{ name = "Eric Evans", email = "CireSnave@gmail.com" }]
+version = "0.1.0"
+description = "A Python client for Rush Analytics API"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+keywords = ["rush analytics", "API client", "SEO tools"]
+dependencies = [
+    "requests>=2.32.3",
+    "httpx>=0.28.1",
+    "pydantic>=1.10.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+urls = { "Homepage" = "https://github.com/yourusername/rush-analytics",  "Documentation" = "https://github.com/yourusername/rush-analytics#readme", "Source" = "https://github.com/yourusername/rush-analytics", "Tracker" = "https://github.com/yourusername/rush-analytics/issues"}
+
+[dependency-groups]
+dev = [
+    "setuptools>=78.1.0",
+]
+docs = [
+    "mkdocstrings[python]>=0.29.1",
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.6.11",
+]
